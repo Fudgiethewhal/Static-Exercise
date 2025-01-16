@@ -10,13 +10,13 @@ namespace StaticExercise;
 
 internal static class TempConverter
 {
-    public static double FarenheitToCelsius(double fTemp)
+    public static double FahrenheitToCelsius(double fTemp)
     {
         // C = (F - 32) * 5 / 9;
         return (fTemp - 32) * 5 / 9;
     }
 
-    public static double CelsiusToFarenheit(double cTemp)
+    public static double CelsiusToFahrenheit(double cTemp)
     {
         // F = (C*9)/5 + 32;
         return (cTemp * 9) / 5 + 32;
